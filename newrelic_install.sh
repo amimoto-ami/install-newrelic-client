@@ -24,7 +24,7 @@ service php-fpm restart
 service newrelic-daemon restart
 
 # install mysql plugin
-PREFIX="/opt/newrelic-npi"
+PREFIX="${HOME}/newrelic-npi"
 mysql -u root -e \
   "CREATE USER newrelic@localhost IDENTIFIED BY '${INSTANCE_ID}'; GRANT PROCESS,REPLICATION CLIENT ON *.* TO newrelic@localhost;"
 yes | LICENSE_KEY=${NR_INSTALL_KEY} bash -c "$(curl -sSL https://download.newrelic.com/npi/release/install-npi-linux-redhat-x64.sh)"

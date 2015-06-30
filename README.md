@@ -11,6 +11,5 @@ AMIMOTO install NewRelic client you need.
 You should just run following:
 
 ```
-LICENSE_KEY={YOUR_NEWRELIC_LICENCE_KEY_HERE} sudo bash -c "$(curl -sSL https://raw.githubusercontent.com/amimoto-ami/install-newrelic-client
-/master/newrelic_install.sh)"
+LICENSE_KEY={YOUR_NEWRELIC_LICENCE_KEY_HERE} sudo -E bash -c "$(curl -sSL https://raw.githubusercontent.com/amimoto-ami/install-newrelic-client/master/newrelic_install.sh)"
 ```
