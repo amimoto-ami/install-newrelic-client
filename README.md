@@ -1,10 +1,10 @@
-# Creating Snaphosts for AMIMOTO
+# Install NewRelic client for AMIMOTO
 
 ## What's AMIMOTO
 
 [AMIMOTO is a High Performance WordPress Cloud Hosting on Amazon Web Services.](http://amimoto-ami.com/)
 
-## Install NewRelic Client for AMIMOTO
+## Install NewRelic client for AMIMOTO
 
 AMIMOTO install NewRelic client you need.
 
