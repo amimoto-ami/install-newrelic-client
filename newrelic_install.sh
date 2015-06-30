@@ -1,5 +1,5 @@
 #!/bin/sh
-
+INSTANCE_ID=`/usr/bin/curl -s http://169.254.169.254/latest/meta-data/instance-id`
 NR_INSTALL_KEY=${LICENSE_KEY}
 if [ "${NR_INSTALL_KEY}" = "" ]; then
   echo "Please set environment variable 'LICENSE_KEY'."
