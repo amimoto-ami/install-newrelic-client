@@ -60,6 +60,6 @@ if [ "${NR_MYSQL_PLUGIN_INSTALL}" = "install" ]; then
 check process newrelic_plugin_com.newrelic.plugins.mysql.instance
   with pidfile /var/run/newrelic_plugin_com.newrelic.plugins.mysql.instance.pid
   start program = "/sbin/service newrelic_plugin_com.newrelic.plugins.mysql.instance start"
-  stop program = "/sbin/service newrelic_plugin_com.newrelic.plugins.mysql.instance stop"' > /etc/monit.d/newrelic
+  stop program = "/sbin/service newrelic_plugin_com.newrelic.plugins.mysql.instance stop"' >> /etc/monit.d/newrelic
 fi
 service monit restart
